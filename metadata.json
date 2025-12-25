@@ -1,0 +1,7 @@
+{
+  "name": "Bingbing's Christmas Tree",
+  "description": "An interactive 3D particle Christmas tree with hand tracking and photo memories.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
