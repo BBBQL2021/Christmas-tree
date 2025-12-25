@@ -19,7 +19,8 @@ export interface PhotoData {
 }
 
 export interface ExperienceRef {
-  addPhoto: (url: string) => void;
+  addPhoto: (url: string, existingId?: string) => void;
   removePhoto: (index: number) => void;
   getPhotos: () => PhotoData[];
+  restorePhotos: (photos: PhotoData[]) => void;
 }
